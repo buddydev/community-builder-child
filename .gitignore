@@ -1,0 +1,5 @@
+assets/.sass-cache
+assets/.sass-cache/*
+buddypress/assets/.sass-cache
+buddypress/assets/.sass-cache/*
+node_modules/

@@ -1,0 +1,33 @@
+{
+  "name": "community-builder-child",
+  "version": "1.0.0",
+  "description": "Community Builder Child Theme for WordPress, BuddyPress & WooCommerce",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/presspeople/community-builder-child.git"
+  },
+  "author": "BuddyDev",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://bitbucket.org/presspeople/community-builder#readme",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^3.2.0",
+    "eslint": "^6.7.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-es5": "^1.4.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {}
+}
