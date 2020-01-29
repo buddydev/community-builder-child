@@ -14,7 +14,7 @@ use CB_Child\Bootstrap\Core_Loader;
 defined( 'ABSPATH' ) || exit;
 
 // define version.
-define( 'CB_CHILD_THEME_VERSION', '2.0.0' );
+define( 'CB_CHILD_THEME_VERSION', '2.0.1' );
 
 // Load and register autoloader.
 require get_stylesheet_directory() . '/includes/bootstrap/class-autoloader.php';
