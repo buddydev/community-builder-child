@@ -46,8 +46,8 @@ class Asset_Loader {
 	 */
 	private function setup() {
 
-		// Load assets. Loading early to allow child themes take advantage of it.
-		add_action( 'wp_enqueue_scripts', array( $this, 'load_assets' ) );
+		// Load assets. Loading late to allow child themes overwrite from the parent.
+		add_action( 'wp_enqueue_scripts', array( $this, 'load_assets' ), 20 );
 	}
 
 	/**
