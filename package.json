@@ -17,8 +17,8 @@
   "license": "GPL-2.0-or-later",
   "homepage": "https://bitbucket.org/presspeople/community-builder#readme",
   "devDependencies": {
-    "@wordpress/eslint-plugin": "^3.2.0",
-    "eslint": "^6.7.1",
+    "@wordpress/eslint-plugin": "^24.0.0",
+    "eslint": "^9.39.2",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-es5": "^1.4.1",
     "eslint-plugin-promise": "^4.2.1",
